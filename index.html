@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>শিক্ষানীড় কোচিং সেন্টার</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      scroll-behavior: smooth;
+      font-family: 'SolaimanLipi', 'Noto Sans Bengali', 'Segoe UI', sans-serif;
+      background-color: #fdfdfd;
+    }
+
+    .hero {
+      background: linear-gradient(120deg, #4facfe, #00f2fe);
+      color: white;
+      padding: 120px 0;
+      text-align: center;
+      box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .section-title {
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+    }
+
+    .testimonial {
+      background-color: #ffffff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .navbar {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+    }
+
+    input, textarea {
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">শিক্ষানীড় কোচিং সেন্টার</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#about">আমাদের সম্পর্কে</a></li>
+        <li class="nav-item"><a class="nav-link" href="#courses">কোর্সসমূহ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">মতামত</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">যোগাযোগ</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero d-flex align-items-center" id="home">
+  <div class="container">
+    <h1 class="display-4 fw-bold">আপনার সম্ভাবনাকে জাগ্রত করুন</h1>
+    <p class="lead">শিক্ষানীড় – আপনার শিক্ষাগত সাফল্যের শুরু এখান থেকেই!</p>
+    <a href="#contact" class="btn btn-light btn-lg mt-4 shadow">শুরু করুন</a>
+  </div>
+</section>
+
+<!-- About -->
+<section class="py-5 bg-light" id="about">
+  <div class="container">
+    <h2 class="section-title text-center">আমাদের সম্পর্কে</h2>
+    <div class="about-box mx-auto mb-5 p-4 shadow rounded text-center bg-white" style="max-width: 800px;">
+      <p class="mb-0 fs-5">শিক্ষানীড় কোচিং সেন্টারে, আমরা প্রতিটি শিক্ষার্থীর স্বপ্নপূরণে সহায়তা করি দক্ষ শিক্ষক ও আধুনিক পাঠদানের মাধ্যমে।</p>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="p-4 bg-white rounded shadow-sm h-100">
+          <h5 class="fw-bold">দক্ষ শিক্ষকবৃন্দ</h5>
+          <p>প্রশিক্ষিত ও অভিজ্ঞ শিক্ষক যারা প্রতিটি শিক্ষার্থীর পাশে থাকেন।</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 bg-white rounded shadow-sm h-100">
+          <h5 class="fw-bold">আধুনিক পদ্ধতি</h5>
+          <p>ইন্টারেক্টিভ ও শিক্ষার্থী-কেন্দ্রিক শিক্ষাদান পদ্ধতি।</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 bg-white rounded shadow-sm h-100">
+          <h5 class="fw-bold">ফ্লেক্সিবল সময়সূচী</h5>
+          <p>অনলাইন ও অফলাইন ক্লাসে সুবিধামত অংশগ্রহণ করুন।</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Courses -->
+<section class="py-5 bg-light" id="courses">
+  <div class="container">
+    <h2 class="section-title text-center">আমাদের কোর্সসমূহ</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">গণিত এক্সপার্ট কোর্স</h5>
+            <p class="card-text">প্রাথমিক থেকে উচ্চতর গণিতের দক্ষতা গড়ে তুলুন।</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">বিজ্ঞান শ্রেষ্ঠতা</h5>
+            <p class="card-text">পাঠ্যক্রম অনুযায়ী পদার্থ, রসায়ন ও জীববিজ্ঞান ক্লাস।</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">IELTS ও ভাষা প্রশিক্ষণ</h5>
+            <p class="card-text">IELTS সহ ইংরেজি ও যোগাযোগ দক্ষতার কোর্স।</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="py-5" id="testimonials">
+  <div class="container">
+    <h2 class="section-title text-center">শিক্ষার্থীদের মতামত</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="testimonial">
+          <p>"শিক্ষানীড় আমাকে বোর্ড পরীক্ষায় সফল হতে অনেক সাহায্য করেছে। শিক্ষকরা দারুণ!"</p>
+          <h6 class="mt-2 mb-0">– আয়েশা</h6>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="testimonial">
+          <p>"এখানে IELTS কোচিং অত্যন্ত উন্নত। আমি Band 8 পেয়েছি! Which is help to build my career"</p>
+          <h6 class="mt-2 mb-0">– ফাহিম</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="py-5 bg-light" id="contact">
+  <div class="container">
+    <h2 class="section-title text-center">যোগাযোগ করুন</h2>
+    <form class="row g-3 mt-3">
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="আপনার নাম" required />
+      </div>
+      <div class="col-md-6">
+        <input type="email" class="form-control" placeholder="আপনার ইমেইল" required />
+      </div>
+      <div class="col-12">
+        <textarea class="form-control" rows="4" placeholder="আপনার বার্তা লিখুন..."></textarea>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-primary px-4">বার্তা পাঠান</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p class="mb-0">&copy; ২০২৫ শিক্ষানীড় কোচিং সেন্টার। সর্বস্বত্ব সংরক্ষিত।</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
